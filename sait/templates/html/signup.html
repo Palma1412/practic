@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="/templates/css/signup.css">
+  <link rel="stylesheet" href="/css/signup.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 </head>
 
@@ -16,19 +16,17 @@
       <form action="#">
         <div class="row">
           <i class="fas fa-user"></i>
-          <input type="text" placeholder="Username" required />
-        </div>
-        <div class="row">
-          <i class="fas fa-lock"></i>
-          <input type="password" placeholder="Password" required />
+          <input type="text" placeholder="Login"  id="loginName"/>
         </div>
         <div class="row button">
-          <input type="submit" value="Login" />
+          <a id="buttonLogin">Login</a>
         </div>
-        <div class="signup-link">Not a member? <a href="#">Regist now</a></div>
+        <div class="signup-link">Not a member? <a href="/html/register.html">Regist now</a></div>
       </form>
     </div>
   </div>
+
+  <script src="/js/signup.js" defer></script>
 </body>
 
 </html>
