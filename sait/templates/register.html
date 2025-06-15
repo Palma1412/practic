@@ -5,44 +5,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="/static/css/regist.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/regist.css') }}">
 </head>
 
 <body>
   <div class="registration">
     <div class="wrapper">
       <div class="title"><span>Regist Form</span></div>
-      <form action="#">
+      <form id="register">
         <div class="row">
-          <i class="fas fa-user"></i>
-          <input type="text" placeholder="Имя"  id="name"/>
+          <input type="text" placeholder="Имя" id="name" />
         </div>
         <div class="row">
-          <i class="fas fa-user"></i>
-          <input type="text" placeholder="Фамилия"  id="surname"/>
+          <input type="text" placeholder="Фамилия" id="surname" />
         </div>
         <div class="row">
-          <i class="fas fa-user"></i>
-          <input type="text" placeholder="Отчество"  id="patronymic"/>
+          <input type="text" placeholder="Отчество" id="patronymic" />
         </div>
         <div class="row">
-          <i class="fas fa-user"></i>
-          <input type="text" placeholder="Возраст"  id="year"/>
+          <input type="text" placeholder="Возраст" id="year" />
         </div>
         <div class="row">
-          <i class="fas fa-user"></i>
-          <input type="text" placeholder="Логин"  id="login"/>
+          <input type="text" placeholder="Логин" id="login" />
         </div>
 
         <div class="row button">
-          <a id="register">Register</a>
+          <button id="registerButton">Register</button>
+          <p id="errorElement" style="color: red;"></p>
         </div>
-        <div class="signup-link">Member? <a href="/html/signup.html">Signup now</a></div>
+        <div class="signup-link">Member? <a href="/sait/templates/signup.html">Signup now</a></div>
       </form>
     </div>
   </div>
-  <script src="/static/js/regist.js" defer></script>
+  <script src="{{ url_for('static', filename='js/regist.js') }}"></script>
 </body>
 
 </html>

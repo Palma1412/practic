@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: rgb(20, 20, 20);
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  color: rgb(201, 203, 205);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(201, 203, 205);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  background-color: rgb(34, 34, 34);
+  padding: 15px 0;
+  border-bottom: 1px solid rgb(49, 49, 49);
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.header-logo,
+.header a {
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.header-logo:hover,
+.header a:hover,
+.header-button:hover,
+.header-modal-button:hover {
+  transform: translateY(-2px);
+  
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.header-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-button {
+  font-size: 16px;
+  color: rgb(201, 203, 205);
+  background-color: rgb(34, 34, 34);
+  border: none;
+  border-left: 1px solid rgb(49, 49, 49);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.header-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-modal-main {
+  position: absolute;
+  padding: 20px;
+  background-color: rgb(34, 34, 34);
+  width: 200px;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border-radius: 5px;
+  border-bottom: 1px solid rgb(49, 49, 49);
+  border-top: 1px solid rgb(49, 49, 49);
+  animation: fadeIn 0.3s ease-out;
+}
+
+.header-modal-button {
+  border: 1px solid rgb(49, 49, 49);
+  border-radius: 5px;
+  padding: 5px 15px;
+  cursor: pointer;
+  background-color: rgb(34, 34, 34);
+  color: rgb(201, 203, 205);
+  transition: all 0.3s ease;
+}
+
+/* main */
+
+.main {
+  margin-top: 20px;
+}
+
+.main .container {
+  border: 1px solid rgb(49, 49, 49);
+  padding: 20px;
+  border-radius: 10px;
+  width: 900px;
+  background-color: rgb(34, 34, 34);
+}
+
+.main .container h1 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(49, 49, 49);
+}
+
+.main-user-username {
+  padding-top: 10px;
+}
+
+.main-user-username p {
+  padding-left: 10px;
+  font-size: 20px;
+}
+.main-user-username p:last-child {
+  font-size: 14px;
+}
+
+.main-user-about {
+  padding-top: 20px;
+  width: 600px;
+  overflow-wrap: break-word;
+}
+
+.main-user-about p {
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.main-user-about h3 {
+  padding-bottom: 5px;
+}
+
+.add-post {
+  display: block;
+  border: 1px solid rgb(49, 49, 49);
+  padding: 20px;
+  border-radius: 10px;
+  width: 900px;
+  background-color: rgb(34, 34, 34);
+  color: rgb(201, 203, 205);
+  margin: 20px auto;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.add-post:hover {
+  transform: translateY(-2px);
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  position: relative;
+  padding: 20px;
+  background-color: rgb(34, 34, 34);
+  width: 700px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid rgb(49, 49, 49);
+  border-top: 1px solid rgb(49, 49, 49);
+  animation: fadeIn 0.3s ease-out;
+}
+
+.modal-content h2 {
+  padding-bottom: 20px;
+}
+
+.close-btn {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #777;
+}
+
+.modal-input {
+  background-color: rgb(34, 34, 34);
+  outline: none;
+  border: none;
+  width: 80%;
+  min-height: 40px;
+  overflow: hidden;
+  padding-top: 20px;
+  color: rgb(201, 203, 205);
+  padding-left: 10px;
+  resize: none;
+}
+
+.modal-exist {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgb(20, 20, 20);
+  outline: none;
+  border: none;
+  color: rgb(201, 203, 205);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+.users-post .container {
+  width: 900px;
+  margin: 0 auto;
+  background-color: rgb(34, 34, 34);
+  padding: 20px;
+  border: 1px solid rgb(49, 49, 49);
+  border-radius: 5px;
+}
+
+.username-post {
+  border-top: 1px solid rgb(49, 49, 49);
+  padding-top: 20px;
+  margin-top: 15px;
+}
+
+.posts p {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.username-post-input {
+  border: none;
+  background-color: rgb(34, 34, 34);
+  border-bottom: 1px solid rgb(67, 67, 67);
+  padding: 10px;
+  outline: none;
+  margin-left: 20px;
+  color: rgb(201, 203, 205);
+}
+
+
+
+.username-h4 {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.username-posts-comment {
+  border-top: 1px solid rgb(66, 66, 66);
+  padding: 10px 0 10px 30px;
+  margin-top: 10px;
+}
+
+.username-posts-comment p {
+  
+}

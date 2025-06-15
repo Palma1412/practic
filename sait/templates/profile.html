@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/profile.css') }}">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a class="header-logo" href="#">Социальная сеть</a>
+      <div class="header-info">
+        <a href="#">Профиль</a>
+        <button class="header-button" id="header-button">Выйти</button>
+      </div>
+      <div class="header-modal" id="header-modal">
+        <div class="header-modal-main">
+          <h3>Вы уверены?</h3>
+          <div>
+            <button class="header-modal-button" id="header-modal-yes">Да</button>
+            <button class="header-modal-button" id="header-modal-no">Нет</button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </header>
+  
+  <main class="main">
+    <div class="container">
+      <div class="main-user-info">
+        <h1>Информация:</h1>
+        <div class="main-user-username">
+          <h3>ФИО:</h3>
+          <p id="userName">Ашмарин Игорь Игоревич</p>
+          <p id="userYear">19 лет</p>
+        </div>
+        <div class="main-user-about">
+          <h3>О себе:</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lectus risus, finibus ornare vestibulum
+            et, feugiat quis dui. Vivamus sit amet dolor et magna facilisis rhoncus. Curabitur maximus est sed porta
+            scelerisque. Sed suscipit, arcu volutpat feugiat posuere, eros nisi tristique nibh, mollis vehicula lectus
+            tortor eu purus. Donec ut tortor blandit, sagittis diam eget, suscipit eros. Quisque at magna neque. Nulla
+            faucibus mi at nunc mattis placerat. Pellentesque quis augue quis elit tristique auctor. Integer varius est
+            orci, vel egestas felis dictum nec. Phasellus porta ex sit amet turpis finibus, sed vestibulum nisl
+            efficitur. Praesent ultrices diam enim. In ut tellus sed sem placerat sollicitudin. Donec quis mollis dolor.
+            Etiam viverra, arcu cursus porttitor porttitor, diam nunc auctor nisl, quis placerat magna erat et odio.
+            Phasellus feugiat turpis quis mollis lacinia. Sed ac orci et nisi venenatis pharetra ac non arcu.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+    <button id="openModalBtn" class="add-post">
+      Добавить пост
+    </button>
+    
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <span class="close-btn" id="closeModalBtn">&times;</span>
+        <h2>Новый пост</h2>
+        <div class="modal-content">
+          
+          <textarea placeholder="Введите текст" class="modal-input" id="textareaData"></textarea>
+        </div>
+        <button class="modal-exist" id="modal-exist">Добавить</button>
+      </div>
+    </div>
+    
+    <div class="users-post">
+      <div class="container">
+      <div class="users-posts">
+        <h2>Посты:</h2>
+        <div class="posts" id="posts">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="{{ url_for('static', filename='js/profile.js') }}"></script>
+</html>
