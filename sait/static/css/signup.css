@@ -52,7 +52,7 @@ body {
   transition: all 0.3s ease;
 }
 
-.wrapper form .row a {
+.wrapper form .row button {
   height: 100%;
   width: 100%;
   border-radius: 5px;
@@ -62,11 +62,6 @@ body {
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
-}
-
-form .row a:hover {
-  cursor: pointer;
-  background-color: rgb(188, 188, 188);
 }
 
 form .row input:focus {

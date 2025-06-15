@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b4f55eed-b525-4f76-8c35-e3510ca90a68" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sait/static/css/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sait/static/js/baze.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sait/static/js/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sait/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sait/.env" beforeDir="false" afterPath="$PROJECT_DIR$/sait/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sait/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/sait/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sait/extensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/sait/extensions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sait/migrations/README" beforeDir="false" afterPath="$PROJECT_DIR$/sait/migrations/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sait/migrations/alembic.ini" beforeDir="false" afterPath="$PROJECT_DIR$/sait/migrations/alembic.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sait/migrations/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/sait/migrations/env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sait/migrations/script.py.mako" beforeDir="false" afterPath="$PROJECT_DIR$/sait/migrations/script.py.mako" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sait/migrations/versions/7cefce0a8082_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/sait/migrations/versions/7cefce0a8082_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sait/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sait/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sait/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sait/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sait/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/sait/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sait/static/css/regist.css" beforeDir="false" afterPath="$PROJECT_DIR$/sait/static/css/regist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sait/static/css/signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/sait/static/css/signup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sait/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sait/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sait/static/fonts/Gilroy-ExtraBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sait/static/fonts/Gilroy-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sait/static/js/regist.js" beforeDir="false" afterPath="$PROJECT_DIR$/sait/static/js/regist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sait/static/js/signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/sait/static/js/signup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sait/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/sait/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sait/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sait/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sait/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/sait/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sait/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/sait/templates/signup.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2yYBfPIqOZYvJdONiNLZaHjEubS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Merging main",
+    "last_opened_file_path": "C:/Users/Palma/Documents/practic",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PS-241.15989.102" />
+        <option value="bundled-php-predefined-ba97393d7c68-c76157a7178b-com.jetbrains.php.sharedIndexes-PS-241.15989.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4f55eed-b525-4f76-8c35-e3510ca90a68" name="Changes" comment="" />
+      <created>1750001728966</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750001728966</updated>
+      <workItem from="1750001730616" duration="2000" />
+    </task>
+    <servers />
+  </component>
+</project>
