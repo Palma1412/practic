@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url('/sait/static/fonts/Gilroy-Light.woff');
+}
+
+* {
+   font-family: 'Gilroy-Light', sans-serif;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3 ,h4 ,h5 ,h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    max-width: 170vh;
+    margin: auto;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: LightGrey;
+
+    padding: 10px 20px;
+
+    border-radius: 5px;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.header .container a {
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.header-list li{
+    list-style: none;
+}
+
+.header-avatar {
+    background-image: url('/sait/static/img/user.webp');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: top center;
+    border-radius: 50%;
+}
+
+/* Main */
+
+.main .container {   
+    max-width: 130vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main-avatar {
+    background-image: url('/sait/static/img/user.webp');
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: top center;
+    border-radius: 50%;
+    
+}
+
+.main-user-info {
+    display: flex;
+    background-color: LightGrey;
+    border-radius: 5px;
+    padding: 10px 20px; 
+}
+
+.main-user-data {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+.main-post-like {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.main-post-info {
+    background-color: LightGrey;
+     border-radius: 5px;
+    margin-top: 10px;
+    padding: 20px 20px;
+}
+
+.main-post-info p{
+    padding: 5px;
+}
+
+.like {
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/sait/static/css/regist.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+  <div class="registration">
+    <div class="wrapper">
+      <div class="title"><span>Regist Form</span></div>
+      <form id="register">
+        <div class="row">
+          <input type="text" placeholder="Имя" id="name" />
+        </div>
+        <div class="row">
+          <input type="text" placeholder="Фамилия" id="surname" />
+        </div>
+        <div class="row">
+          <input type="text" placeholder="Отчество" id="patronymic" />
+        </div>
+        <div class="row">
+          <input type="text" placeholder="Возраст" id="year" />
+        </div>
+        <div class="row">
+          <input type="text" placeholder="Логин" id="login" />
+        </div>
+
+        <div class="row button">
+          <button id="registerButton">Register</button>
+          <p id="errorElement" style="color: red;"></p>
+        </div>
+        <div class="signup-link">Member? <a href="/sait/templates/signup.html">Signup now</a></div>
+      </form>
+    </div>
+  </div>
+  <script src="/sait/static/js/regist.js" defer></script>
+</body>
+
+</html>
